@@ -37,7 +37,6 @@ candidate-election-system/
 ├── model_build.py           # Model eğitimi ve kayıt işlemleri
 ├── model_test.py            # Model değerlendirme ve karar sınırı çizimi
 ├── main.py                  # FastAPI uygulaması ve endpoint tanımları
-├── requirements.txt         # Gerekli kütüphaneler
 └── README.md                # Proje dokümantasyonu
 ```
 
