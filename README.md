@@ -28,6 +28,21 @@ Bu proje, adayların tecrübe yılı ve teknik test puanına göre işe alınıp
 
 ---
 
+##  Proje Yapısı
+
+```bash
+candidate-election-system/
+│
+├── create_dataset.py        # Sahte aday verisi üretimi (Faker)
+├── model_build.py           # Model eğitimi ve kayıt işlemleri
+├── model_test.py            # Model değerlendirme ve karar sınırı çizimi
+├── main.py                  # FastAPI uygulaması ve endpoint tanımları
+├── requirements.txt         # Gerekli kütüphaneler
+└── README.md                # Proje dokümantasyonu
+```
+
+---
+
 ##  Kurulum
 
 ```bash
@@ -37,7 +52,7 @@ cd candidate-election-system
 
 ---
 
-## ▶️ Uygulamayı Başlat
+##  Uygulamayı Başlat
 
 ```bash
 python -m uvicorn main:app --reload
